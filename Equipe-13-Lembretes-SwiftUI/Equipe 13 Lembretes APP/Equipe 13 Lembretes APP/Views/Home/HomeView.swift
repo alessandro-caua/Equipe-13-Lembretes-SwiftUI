@@ -125,3 +125,7 @@ struct CalendarioView: View {
         .navigationTitle("Calendário")
     }
 }
+
+#Preview {
+    HomeView()
+}
