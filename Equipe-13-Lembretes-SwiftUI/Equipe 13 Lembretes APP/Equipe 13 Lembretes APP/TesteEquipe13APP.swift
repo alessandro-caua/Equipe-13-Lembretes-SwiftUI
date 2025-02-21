@@ -6,7 +6,7 @@ struct TesteEquipe13App: App {
         WindowGroup {
             TabView {
                 Tab {
-                    Text("1")
+                    DiaCalendarioEmLinha(data: .now, isSelected: true)
                 } label: {
                     Label("Home1", systemImage: "house.fill")
                 }
